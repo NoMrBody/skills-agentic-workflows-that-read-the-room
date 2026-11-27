@@ -24,6 +24,7 @@ tools:
   bash: false
   cli-proxy: false
 safe-outputs:
+  report-failure-as-issue: false
   create-pull-request:
     fallback-as-issue: false
     allowed-files:
