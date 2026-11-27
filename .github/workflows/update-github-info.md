@@ -40,8 +40,8 @@ invent facts or repeat existing coverage. Update only
 `site/content/github-info.md`, keeping summaries concise and linking each
 update directly to its GitHub Blog or Changelog source.
 
-If a meaningful, source-supported update is available, open one pull request
-with the change for Mona to review. Make the PR description explain the
-updates and cite their sources. Never write directly to `main`. If neither
-source provides a useful new update, or the sources cannot be fetched or
-verified, make no file changes and call `noop` with a brief reason.
+If there's a meaningful, source-supported update, open a pull request for Mona to
+review. Include the change in the PR, explain the update in its description, and
+cite the source. Never write directly to `main`. If neither source provides a
+useful new update, or the sources cannot be fetched or verified, make no file
+changes and call `noop` with a brief reason.
