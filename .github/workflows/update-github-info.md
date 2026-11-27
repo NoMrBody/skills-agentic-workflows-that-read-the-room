@@ -17,6 +17,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit:
   web-fetch:
@@ -33,12 +34,15 @@ safe-outputs:
 
 Read `notes/mona-notes.md` and the current `site/content/github-info.md`.
 Fetch both `https://github.blog/latest/` and `https://github.blog/changelog/`.
+Use web fetch to read `https://awesome-copilot.github.com/workflows/` as an
+additional source.
 
 Select only recent items that offer practical value to developers and fit
 Mona's editorial angle. Verify details against the fetched sources; do not
 invent facts or repeat existing coverage. Update only
 `site/content/github-info.md`, keeping summaries concise and linking each
-update directly to its GitHub Blog or Changelog source.
+update directly to its GitHub Blog, Changelog, or Awesome Copilot workflows
+source.
 
 If there's a meaningful, source-supported update, open a pull request for Mona to
 review. Include the change in the PR, explain the update in its description, and
